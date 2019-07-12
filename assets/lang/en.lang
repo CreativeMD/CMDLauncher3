@@ -1,0 +1,5 @@
+module.internet=Internet Connection
+module.launcher_service=Database Connection
+
+task.internet=Checking for Internet access
+task.service=Connecting to database

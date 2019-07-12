@@ -1,0 +1,65 @@
+.instance_group
+{
+	border: 1px outset blue;
+}
+.instance
+{
+	padding: 4px 2px;
+	border: 1px outset blue;
+	background: #f4f9f9;
+	width: 150px;
+	text-align: center;
+	vertical-align: bottom;
+	height: 100px;
+	border-radius: 2px;
+	display: inline-block;
+}
+.instance:hover
+{
+	background: #e1f4f7;
+}
+.unclickable
+{
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+}
+.button
+{
+	cursor: hand;
+	border-radius: 4px;
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button:hover
+{
+	box-shadow: 0 3px 3px 0 rgba(0,0,0,0.24), 2px 2px 0px 0 rgba(0,0,0,0.19);
+}
+click
+{
+	background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 1px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	cursor: hand;
+	border-radius: 4px;
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+click:hover
+{
+	box-shadow: 0 3px 3px 0 rgba(0,0,0,0.24), 2px 2px 0px 0 rgba(0,0,0,0.19);
+}
